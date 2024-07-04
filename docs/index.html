@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Devcamp Products</title>
+  <meta name="description" content="Products list for Devcamp" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+</head>
+
+<body>
+  <main class="flex min-h-screen flex-col items-center justify-between p-0">
+    <div class="z-10 w-full max-w-5xl items-center justify-between text-sm lg:flex">
+      <nav class="flex w-full items-center justify-between flex-wrap p-6 bg-slate-100">
+        <div class="flex items-center flex-shrink-0 text-gray mr-6">
+          <svg class="fill-current h-8 w-8 mr-2" width="12"
+            height="18" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="m216 23.86c0-23.8-30.65-32.77-44.15-13.04-123.85 181.03 52.15 189.18 52.15 277.18 0 35.63-29.11 64.46-64.85 63.99-35.17-.45-63.15-29.77-63.15-64.94v-85.51c0-21.7-26.47-32.23-41.43-16.5-26.77 28.12-54.57 76.29-54.57 134.96 0 105.87 86.13 192 192 192s192-86.13 192-192c0-170.29-168-193-168-296.14z">
+            </path>
+          </svg>
+          <span class="font-semibold text-xl tracking-tight">Devcamp Products</span></div>
+        <div class="block lg:hidden">
+          <button
+            class="flex items-center px-3 py-2 border rounded border-gray-400 hover:text-white hover:border-white"><svg
+              class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+          <div class="text-sm lg:flex-grow">
+            <a href="products"
+              class="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-400 mr-4">
+              Products
+            </a>
+            <a href="about"
+              class="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-400 mr-4">
+              About us
+            </a>
+          </div>
+          <div>
+            <a href="#contact"
+              class="inline-block text-sm px-4 py-2 leading-none border rounded text-gray border-gray hover:border-transparent hover:text-gray-300 hover:bg-white mt-4 lg:mt-0">
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+      <h1 class="text-4xl sm:text-6xl font-bold tracking-tight text-slate-900">
+        デベキャンで _______を満たすキャンプライフ
+      </h1>
+    </div>
+    <div class="flex-col w-full max-w-5xl items-center justify-between p-6 bg-slate-50">
+      <!-- News -->
+      <div class="flex">
+        <div class="pt-1 pb-1">2024/7/23</div>
+        <div class="grow pt-1 pb-1 pl-4">
+          <a href="news/1">新商品「高耐久ランタン LT-100」をリリースしました</a>
+        </div>
+      </div>
+      <div class="flex">
+        <div class="pt-1 pb-1">2024/7/22</div>
+        <div class="grow pt-1 pb-1 pl-4">
+          <a href="news/2">新商品「焚き火対応ワンポールテント WP-201」をリリースしました</a>
+        </div>
+      </div>
+    </div>
+    <div class="flex gap-6 w-full max-w-5xl justify-stretch p-6">
+      <div class="min-w-[480px] h-[270px] bg-stone-50">
+        <!-- X/Twitter -->
+      </div>
+      <div class="min-w-[480px] h-[270px] bg-stone-50">
+        <!-- Youtube -->
+      </div>
+    </div>
+    <div class="w-full max-w-md p-6 bg-stone-50">
+      <a name="contact"></a>
+      <!-- Contact -->
+    </div>
+    <div class="w-full bg-slate-700">
+      <div class="mt-8 mb-32 m-auto text-center max-w-5xl text-left text-white">
+        © 2024 DevelopersIO BASECAMP all rights reserved.
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
