@@ -3,6 +3,8 @@ Devcamp Products Webサイト
 
 当Webサイトのリポジトリです。 `docs/` がドキュメントルートで、HTMLファイルや画像ファイルを配置します。
 
+![workflow](https://github.com/cm-devcamp/devcamp_app1_prod/actions/workflows/super-linter.yml/badge.svg)
+
 ## リポジトリ運用ルール
 
 mainブランチへの直接のコミットは控えてください。作業用ブランチを作成し、Pull Requestでレビューののちmainにマージします。
