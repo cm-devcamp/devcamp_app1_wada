@@ -1,0 +1,10 @@
+.sns-link {
+    width: 480px;
+    height: 270px;
+    overflow-y: scroll;
+}
+
+.twitter-timeline {
+    width: 100%;
+    height: 100%;
+}
